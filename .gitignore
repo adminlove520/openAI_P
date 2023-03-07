@@ -5,7 +5,7 @@
 *.so
 *.dylib
 .idea/
-storage.json
+.vscode/
 
 # Test binary, built with `go test -c`
 *.test
@@ -14,4 +14,6 @@ storage.json
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+config.json
+storage.json
+vendor
